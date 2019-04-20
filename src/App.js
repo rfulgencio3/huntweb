@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import api from './services/api'
+import Routes from './routes'
 
 import './styles.css'
 
 import Header from './components/Header'
 import Main from './pages/main'
 
-class App extends Component {
-  render() {
-    return (
+const App = () =>(
       <div className="App">
         <Header />
-        <Main />
+        <Routes />
       </div>
     );
-  }
-}
 
 export default App;
