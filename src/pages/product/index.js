@@ -26,12 +26,12 @@ export default class Product extends Component {
             <p> {product.description}</p>
 
             <p>
-                URL: <a href={product.url}>{product.url}</a>
+                URL: <a href={product.url} rel="noreferrer noopener" target="_blank">{product.url}</a>
             </p>
             <br />
-            <div className='actions'>
+            <article key={product._id}>
                 <Link to={'/'}>Voltar</Link>
-            </div>
+            </article>
         </div>
         )
     }

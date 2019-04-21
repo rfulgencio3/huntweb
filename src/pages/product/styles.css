@@ -22,6 +22,17 @@
 }
 
 .product-info article {
+    background: #fff;
+}
+
+.product-info article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-info article a {
     height: 42px;
     border-radius: 5px;
     border: 2px solid #da552f;
@@ -37,7 +48,7 @@
     transition: all 0.2s;
 }
 
-.product-info article{
+.product-info article a:hover{
   background: #da552f;
   color: #ffffff;  
 }
